@@ -1,0 +1,84 @@
+/* common */
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #1EBFC1;
+}
+html,
+body {
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100%-48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: inline-block; /*dung the a phai bo sung*/
+    min-width: 186px;
+    /* padding: 20px 41px 21px; */
+    line-height: 68px; /* chieu cao nut */
+    background: var(--primary-color);
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.16;
+    color: #0D1111;
+}
+.heading.lv1 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+.heading.lv2 {
+    font-size: 2.2rem;
+    line-height: 33px;
+}
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+.line-clamp.line-4 {
+    --line-clamp: 4;
+}
+.break-all {
+    word-break: break-all;
+}
+
+/* Header */
+.header .nav {
+    margin-top: 52px;
+    display: flex;
+}
+
+
+
+

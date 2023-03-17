@@ -82,7 +82,7 @@ a {
 .header.fixed {
     position: sticky;
     top: 0px;
-    background: #e5e5e5;
+    background: #DEF6F5;
     z-index: 1;
 }
 .header .nav-list {
@@ -549,7 +549,6 @@ a {
 .register .body {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .register .content {
     padding-top: 76px;
@@ -566,3 +565,57 @@ a {
     color: #767e7e;
 }
 
+/* Footer */
+.footer {
+    padding-top: 131px;
+    background: #ffffff;
+}
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .column .title {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #2e2e2e;
+}
+.footer .column .list li a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #535353;
+}
+.footer .column .list li {
+    margin-bottom: 20px;
+}
+.footer .column .list li a:hover {
+    opacity: 0.6;
+}
+.footer .column .list li:last-child {
+    margin-bottom: 0;
+}
+.footer .list .social .logo {
+    margin: auto;
+}
+.footer .list .social {
+    display: inline-flex;
+    margin-left: 9px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 999px;
+    text-align: center;
+}
+.footer .copyright {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.footer .copyright .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #b0b5b4;
+}
